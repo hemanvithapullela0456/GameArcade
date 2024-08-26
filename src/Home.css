@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: url('./image2.png'); /* Background image for landing page */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-heading {
+  font-size: 100px;
+  margin-top: 140px;
+  margin: 0;
+  font-family: 'Peralta', cursive; /* Apply the Peralta font */
+}
+
+.app-tagline {
+  font-size: 50px;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: 'Dokdo', cursive;
+  color: rgb(255, 242, 0);
+}
+
+.app-options {
+  margin-top: 20px;
+}
+
+.app-button-link {
+  display: block; /* Ensure buttons are displayed one below the other */
+  margin: 10px auto; /* Center buttons horizontally */
+  width: 300px; /* Increase button width */
+}
+
+.app-button {
+  padding: 15px; /* Increase padding for a larger button */
+  font-size: 30px; /* Increase font size */
+  cursor: pointer;
+  border: 2px solid #8a2be2; /* Purplish border color */
+  border-radius: 25px; /* More rounded corners */
+  background-color: #000; /* Black background color */
+  color: white;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.app-button:hover {
+  background-color: #4b0082; /* Darker purple on hover */
+  border-color: #6a0dad; /* Lighter purple border on hover */
+}
